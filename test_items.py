@@ -2,7 +2,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
-def test_guest_should_see_login_link(browser):
+def test_basket_button(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     basket = browser \
